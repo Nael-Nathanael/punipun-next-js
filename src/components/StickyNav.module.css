@@ -1,0 +1,19 @@
+.nav {
+    transition: all .25s ease-in-out;
+    transform: translateY(-100%);
+    min-height: 40px;
+    top: 0;
+    z-index: 2000;
+}
+
+.nav.threshold-reach {
+    transform: unset;
+}
+
+.a {
+    text-decoration: none;
+    margin: 2px 20px;
+    color: rgb(53, 19, 108);
+    display: block;
+    font-size: 13px;
+}
